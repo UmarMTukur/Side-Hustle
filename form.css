@@ -4,7 +4,7 @@ input[type="message"],
 input[type="email"],
 input[type="text"],
 textarea {
-  width: 50%; /* Full width */
+  width: 100%; /* Full width */
   padding: 12px; /* some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -16,7 +16,7 @@ textarea {
 
 /* Style the submit button with a specfic background color etc */
 .submit {
-  background-color: #04aa6d;
+  background-color: #1623cc;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -26,7 +26,7 @@ textarea {
 
 /* When moving the mouse over the submit, add a drker color */
 button[submit]:hover {
-  background-color: #45a049;
+  background-color: #1623cc;
 }
 
 ol,
