@@ -1,0 +1,137 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "rubik", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.fx-cl {
+  display: flex;
+  flex-direction: column;
+}
+
+.fx-ac {
+  display: flex;
+  align-items: center;
+}
+
+.fx-jb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fx-jc {
+  display: flex;
+  justify-content: center;
+}
+.fx {
+  display: flex;
+}
+
+.gap1 {
+  gap: 1.2rem;
+}
+
+.gap2 {
+  gap: 2.4rem;
+}
+
+.gap3 {
+  gap: 2.8rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+header ul {
+  background-color: #fafaff;
+  color: #999;
+  list-style: none;
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.4rem;
+}
+header ul li a:link {
+  color: #999;
+  text-decoration: none;
+}
+
+.fosN {
+  font-size: 1.5rem;
+}
+
+/* hero decoration blocks */
+.heroDisc {
+  grid-column: span 2;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8rem;
+}
+
+.heroDisc div {
+  align-items: center;
+}
+
+.heroDisc a:link,
+.heroDisc a:visited {
+  background-color: rgb(53, 53, 187);
+  color: #fff !important;
+  border-radius: 0.4rem;
+  padding: 0.8rem 1.2rem;
+  width: 30%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.heroDisc h1 {
+  font-size: 3.4rem;
+}
+
+.sectionItems figure {
+  background-color: #7171ee;
+  padding: 1.8rem;
+  box-shadow: 1rem 1rem 2rem 0rem rgba(0, 0, 0, 0.3);
+}
+
+.sectionItems figure:hover,
+.sectionItems figure:active {
+  background-color: #587558 !important;
+  color: red;
+}
+
+ion-icon {
+  color: rgb(0, 8, 255);
+  font-size: large;
+}
+
+.image2 {
+  text-align: center;
+  width: 300;
+  height: 100;
+}
+
+.line {
+  text-align: center;
+  line-height: 2;
+}
